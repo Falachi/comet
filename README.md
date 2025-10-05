@@ -15,9 +15,13 @@ git clone https://github.com/Falachi/comet.git
 cd comet
 ```
 
-2. Enter the Python environment and install dependencies in `requirements.txt`.
+2. Intall dependencies in `requirements.txt`.
 
-3. Run the pyinstaller in a terminal. The built app should be in `/dist/`
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the pyinstaller in a terminal. The built app should be in `/dist/`.
 
 ```bash
 # On Linux/macOS, replace ';' with ':'
